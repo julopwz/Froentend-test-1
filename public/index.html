@@ -9,12 +9,17 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="julia carvalho">
     <title>MARCA</title>
-    <link rel="stylesheet" type="text/css" href="../public/CSS/styles.css" />
-    <link rel="stylesheet" href="../src/components/Header/Header.css" />
-    <link rel=" stylesheet " href="../src/components/Section/Section.css" />
-    <link rel="stylesheet " href="../src/components/Footer/Footer.css" />
-    <link rel="stylesheet" href="../public/CSS/Fonts/HellixTRIAL-SemiBold.otf" />
-    <link rel="stylesheet" href="../public/CSS/mobile.css" />
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/mobile.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/section.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/Fonts/HellixTRIAL-SemiBold.otf">
+    <link rel="stylesheet" href="./JS/script.js">
+    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../slick-1.8.1/slick/slick.css">
+    <script src="../slick-1.8.1/slick/slick.js"></script>
+    <script src="../slick-1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -73,32 +78,59 @@
             </div>
         </header>
         <section class="slidegrande">
-            <class class="container">
-                <div class="textocentral">
-                    <div class="tiny-arrows " data-glide-el="controls">
-                        <button class="tiny-arrow tiny-arrow-left " data-glide-el="<">
-                        <img src="..\src\img\ic-arrow-left.png " alt="ic-arrow-left">
-                    </button>
-                        <div class="my-slider" cclass="owl-carousel owl-theme">
-                            <div class="slide-item"><img src="..\src\img\Rectangle11.png " alt="Rectangle1"></div>
-                            <div class=" slide-item"><img src="..\src\img\Rectangle22.png " alt="Rectangle2"></div>
-                            <div class="slide-item"><img src="..\src\img\Rectangle33.png " alt="Rectangle3"></div>
-                            <div class="slide-item"><img src="..\src\img\Rectangle44.png " alt="Rectangle4"></div>
-                            <div class="slide-item"><img src="..\src\img\Rectangle55.png " alt="Rectangle5"></div>
-                            <div class="slide-item"><img src="..\src\img\Rectangle66.png " alt="Rectangle6"></div>
-                            <div class="slide-item"> <img src="..\src\img\Rectangle77.png " alt="Rectangle7"></div>
-                        </div>
-                        <div class="tiny-arrows" data-glide-el="controls">
-                            <button class="tiny-arrow tiny-arrow-right" data-glide-el=">"><img src="..\src\img\ic-arrow-right.png" alt="ic-arrow-right">
-                            </button>
-                        </div>
+            <div class="container">
+                <div class="textocentral" class="multiple-items">
+                    <button type="button" class="slick-next "></button>
+                    <div>
+                        <img src="./img/Rectangle11.png " alt=" ">
                     </div>
+                    <div>
+                        <img src="./img/Rectangle22.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle33.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle44.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle55.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle66.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle77.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle12.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle23.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle32.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle42.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle52.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle62.png " alt=" ">
+                    </div>
+                    <div>
+                        <img src="./img/Rectangle72.png " alt=" ">
+                    </div>
+                    <button type="button" class="slick-prev"></button>
                 </div>
+            </div>
         </section>
         <footer>
             <div id="footer-container">
                 <div id="weather">
-                    <img src="..\src\img\Weather.png" alt="Weather">
+                    <img src="./img/Weather.png" alt="Weather">
                 </div>
                 <div id="lang">
                     <p id="portugues">PORTUGUES</p>
@@ -106,6 +138,8 @@
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </body>
 
 </html>
