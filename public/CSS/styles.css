@@ -1,0 +1,26 @@
+html,
+body {
+    background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    display: flex;
+    flex-flow: column;
+    height: 810px;
+    padding: 0px;
+    -webkit-flex-flow: column;
+    width: 1440px;
+}
+
+#main {
+    border: 15px solid white;
+    border-radius: 7p;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+}
+
+@font-face {
+    font-family: "HellixTRIAL";
+    src: url(../CSS/Fonts/HellixTRIAL-SemiBold.otf)
+}
